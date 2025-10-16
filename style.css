@@ -1,0 +1,80 @@
+/* Reset dasar untuk tampilan yang lebih bersih */
+body {
+    font-family: 'Georgia', serif; /* Ganti font agar lebih dewasa */
+    background-color: #e8f5e9; /* Warna hijau mint lembut */
+    color: #388e3c; /* Warna hijau tua untuk teks */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    max-width: 550px;
+    text-align: center;
+}
+
+header h1 {
+    color: #66bb6a; /* Warna hijau yang menenangkan */
+    border-right: 3px solid #66bb6a; /* Efek kursor */
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+main p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+#open-message {
+    background-color: #4caf50; /* Hijau solid */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-bottom: 20px;
+}
+
+#open-message:hover {
+    background-color: #388e3c;
+    transform: scale(1.05); 
+}
+
+/* Pesan Tersembunyi */
+#apology-message {
+    border-top: 1px solid #c8e6c9;
+    padding-top: 20px;
+    text-align: left;
+    margin-top: 20px;
+    opacity: 1; 
+    transition: opacity 0.5s ease;
+}
+
+.hidden {
+    display: none; 
+}
+
+#apology-message h2 {
+    color: #1b5e20;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.signature {
+    text-align: right;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 25px;
+    color: #4caf50;
+}
