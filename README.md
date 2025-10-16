@@ -1,2 +1,0 @@
-# buat-melpi-
-minta maaf
